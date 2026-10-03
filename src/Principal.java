@@ -21,13 +21,13 @@ public class Principal {
         System.out.println("Digite a senha");
         String senhaDigitada = scanner.nextLine();
 
-        boolean usuarioEncontrado = false;
+       // boolean usuarioEncontrado = false;
 
        
         for(Simulacaolog u : usuarios) {
             if(usuarDigitado.equals(u.getLogin()) && senhaDigitada.equals(u.getSenha())) {
                 System.out.println("Usuário encontrado: " + u.getLogin());
-                usuarioEncontrado = true;
+              //  usuarioEncontrado = true;
                 break;
             }
 
